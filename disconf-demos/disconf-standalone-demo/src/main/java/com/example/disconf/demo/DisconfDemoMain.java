@@ -27,6 +27,7 @@ public class DisconfDemoMain {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
+    	System.out.println();
 
         contextInitialized();
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext(fn);
